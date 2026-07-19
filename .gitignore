@@ -27,9 +27,11 @@ ENV/
 .venv
 
 # TensorFlow/Keras models
-*.h5
-*.keras
-*.pb
+# *.h5
+# *.keras
+# *.pb
+# Keep trained model
+!food_recognition_model.h5
 
 # Training data
 Indian Food Images/
